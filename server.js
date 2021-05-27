@@ -21,4 +21,8 @@ app.get('/', (req,res) => {
     res.send('Welcome to my first Successful response on Node')
 })
 
+app.get('/login',(req, res) => {
+    res.send('Welcome to login page')
+})
+
 app.listen(port, () =>console.log(`Example app is listening on: ${port}`))
